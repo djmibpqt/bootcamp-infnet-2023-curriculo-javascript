@@ -158,13 +158,13 @@ const isObject = (obj) =>
     const formObrigatorios = document.querySelectorAll(".obrigatorio");
     let valido = true;
     let i = 0;
-    while(valido && i < formObrigatorios.length){
-        const campo = formObrigatorios[i++];
-        if (campo.value.length < 2) {
-            alert(campo.name + " precisa ser preenchido");
-            campo.focus();
-            valido = false;
-        }
+    while (valido && i < formObrigatorios.length) {
+      const campo = formObrigatorios[i++];
+      if (campo.value.length < 2) {
+        alert(campo.name + " precisa ser preenchido");
+        campo.focus();
+        valido = false;
+      }
     }
     return valido;
   };
