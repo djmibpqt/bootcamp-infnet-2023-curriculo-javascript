@@ -1,0 +1,14 @@
+{
+    "formacao": [
+        {
+            "title": "Graduação em Análise e Desenvolvimento de Sistemas - INFNET (.NET e Java)",
+            "endTime": "2019",
+            "description": "Análise e desenvolvimento de sistemas, focados em .NET e JAVA, além de preparatório para certificação PMI-CAPM"
+        },
+        {
+            "title": "MBTI em Inovação de Engenharia de Software – Escola",
+            "endTime": "2023",
+            "description": "Abordando diversas tendências em inovação de tecnologias, incluindo experiências com Design Think, Metodologias Ágeis e prototipando produtos."
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "telefones": "+55 21 97227-9099",
+  "emails": "programador@josefelipe.net",
+  "socialLinks": [
+    {
+      "url": "http://br.linkedin.com/in/djmib",
+      "text": "Linked-in"
+    }
+  ],
+  "secoes": [
+    {
+      "id": "habilidades",
+      "title": "Habilidades",
+      "content": "Sólido conhecimento em Padrões e Desenvolvimento Web. E informática em geral. Personalidade criativa, autodidata, facilidade de trabalho em equipe e ministrar treinamentos."
+    },
+    {
+      "id": "objetivo",
+      "title": "Objetivo",
+      "content": "Buscar novos desafios que aumentem minhas experiências e compartilhar conhecimentos."
+    }
+  ],
+  "endereco": "Praia dos Tamoios, 1185 - casa 1 - Paquetá - Rio de Janeiro - RJ - CEP: 20397-030"
+}

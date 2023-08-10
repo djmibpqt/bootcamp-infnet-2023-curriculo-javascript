@@ -1,0 +1,27 @@
+{
+    "experienciavoluntariaelideranca": {
+        "title": "Coordenador de informática e toda área digital dos projetos:",
+        "infos": [
+            {
+                "text": "Fazendo a Diferença em Paquetá – O Nosso Papel",
+                "link": [
+                    "http://www.nossopapel.org.br/",
+                    "http://www.pontodeculturapaqueta.com.br/"
+                ],
+                "linkText": [
+                    "www.nossopapel.org.br",
+                    "www.pontodeculturapaqueta.com.br"
+                ]
+            },
+            {
+                "text": "Ponto de Mídia Livre Ilha de Paquetá PQT",
+                "link": [
+                    "http://www.ilhadepaqueta.net/"
+                ],
+                "linkText": [
+                    "www.ilhadepaqueta.net"
+                ]
+            }
+        ]
+    }
+}

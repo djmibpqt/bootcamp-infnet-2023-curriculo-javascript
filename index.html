@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Felipe - Dj Mib</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="title">
+      <h1>José Felipe dos Santos Lima</h1>
+      <h4>Também conhecido como DJ Mib</h4>
+      <p>
+      <address>
+        <span class="material-symbols-outlined">
+          home
+        </span>
+        <span id="endereco"></span>
+      </address>
+      </p>
+      <p>
+        <span class="material-symbols-outlined">
+          call
+        </span>
+        <span id="telefones"></span>
+        |
+        <span class="material-symbols-outlined">
+          mail
+        </span>
+        <span id="emails"></span>
+        |
+        <span class="material-symbols-outlined">
+          person
+        </span>
+        <span id="socialLinks"></span>
+      </p>
+    </div>
+    <div class="perfil">
+      <img src="img/perfil.jpg" class="img-responsive" alt="José Felipe - Foto Perfil" />
+    </div>
+  </header>
+  <main>
+    <div id="conteudo">
+      <div id="habilidades"></div>
+      <div id="experiencia">
+        <h2>Experiências</h2>
+      </div>
+      <div id="formacao">
+        <h2>Formações</h2>
+      </div>
+      <div id="cursos">
+        <h2>Cursos</h2>
+      </div>
+
+      <h2>Fale comigo</h2>
+      <form id="frmmail" action="https://blog.djmib.net/email.php" method="post">
+        <fieldset>
+          <legend>
+            <h3>Formulário</h3>
+            <p>
+              Fale comigo de forma fácil através do formulário abaixo. Na mensagem coloque uma forma de contato, caso
+              queira uma resposta. Responderei em breve.
+            </p>
+          </legend>
+          <div class="formcampos">
+            <div>
+              <label for="nome">Nome: </label><input type="text" name="nome" id="nome" required class="obrigatorio">
+            </div>
+            <div>
+              <label for="assunto">Assunto: </label><input type="text" name="assunto" id="assunto"
+                required class="obrigatorio">
+            </div>
+            <div>
+              <label for="email">E-mail: </label><input type="email" name="email" id="email">
+            </div>
+            <div>
+              <label for="noticias">Gostaria de receber notícias? </label><input type="checkbox" name="noticias"
+                id="noticias">
+            </div>
+            <div>
+              <label for="mensagem">Mensagem: </label>
+              <textarea name="mensagem" id="mensagem" cols="30" rows="10" required class="obrigatorio"></textarea>
+            </div>
+            <div>
+              <input type="hidden" name="formsecao" id="formsecao" value="faleconosco">
+              <input type="hidden" name="formretorno" id="formretorno"
+                value="https://desenvolvimento-web-com-html-e-css-josefelipe17.infnet-bclful00c1-m1-l0.repl.co/enviado.html">
+
+              <input type="submit" value="Enviar" class="pure-button"><input type="reset" value="Redefinir"
+                class="pure-button">
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <aside>
+      <div id="objetivo"></div>
+      <div id="certificacoes">
+        <h2>Certificações</h2>
+      </div>
+      <div id="experienciavoluntariaelideranca">
+        <h2>Experiêncas Voluntária e de Liderança</h2>
+      </div>
+    </aside>
+  </main>
+  <footer>
+    Desenvolvido por José Felipe - Dj Mib
+  </footer>
+  <script src="js/josefelipe.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "experiencia": [
+        {
+            "title": "Analista de TI – Eleva Educação (atual Salta Educação)",
+            "worktime": "agosto de 2019 até o momento",
+            "description": "Analista e desenvolvedor de sistemas .NET C# (MVC, WEB API, EF, NHibernate), SQL Server, Angular, Front-END, SCRUM, Knockout JS, GITFlow, Azure e AWS.",
+            "url": "eleva.html"
+        },
+        {
+            "title": "Programador Júnior I – Trust Solutions",
+            "worktime": "junho de 2018 - Julho de 2019",
+            "description": "Desenvolvedor de sistemas previdenciários em .NET C# (WF e MVC), SQL Server, Oracle, SVN, Azure e Front-END.",
+            "url": "trust.html"
+        },
+        {
+            "title": "Desenvolvedor Sharepoint - GPS-IT",
+            "worktime": "agosto de 2014 – fevereiro de 2016",
+            "description": "Desenvolvimento web e Sharepoint da Microsoft. Desenvolvimento e ajustes de sistemas em .NET C#, HTML, CSS e Java Script.",
+            "url": "gpsit.html"
+        }
+    ]
+}

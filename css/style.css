@@ -1,0 +1,376 @@
+/* 
+* Foi utilizado alguns css padrões para normalizar, utilizar google Fonts.
+* Mas pro final do arquivo está a CSS Customizada.
+*/
+
+
+/* google fonts */
+
+/* vietnamese */
+@font-face {
+	font-family: 'Inconsolata';
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7WRL2l2eY.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+	font-family: 'Inconsolata';
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7WRP2l2eY.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+	font-family: 'Inconsolata';
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7WR32lw.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+	font-family: 'Oxygen';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/oxygen/v15/2sDfZG1Wl4LcnbuKgE0mV0Q.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+	font-family: 'Oxygen';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/oxygen/v15/2sDfZG1Wl4LcnbuKjk0m.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* fallback */
+@font-face {
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v88/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1n-q_4MrImHCIJIZrDCvHOej.woff2) format('woff2');
+  }
+  
+  .material-symbols-outlined {
+	font-family: 'Material Symbols Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+  }
+
+/* css reset */
+html, body, div, span, applet, object, iframe, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css própria */
+
+body{
+	font-family: Oxygen, sans-serif;
+	font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Inconsolata, serif;
+	font-style: bold;
+	margin: .5em;
+}
+p{
+	margin: .3em;
+}
+
+h1{
+	font-size: 230%;
+
+}
+h2{
+	font-size: 200%;
+}
+h3{
+	font-size: 170%;
+}
+h4{
+	font-size: 150%;
+}
+h5{
+	font-size: 130%;
+}
+h6{
+	font-size: 110%;
+}
+
+ul li{
+	list-style: disc;
+	list-style-position: inside;
+	margin: .6em;
+}
+
+a:link {
+	color: #006;
+	text-decoration: none;
+	border-bottom: 1px dotted #006;
+}
+
+a:visited {
+	color: #00c;
+	border-bottom-color: #00c;
+}
+
+a:hover {
+	color: #00f;
+	border-bottom-color: #00f;
+}
+
+a:active {
+	color: #339;
+	border-bottom-color: #339;
+}
+
+
+.img-responsive {
+	max-width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+
+em{
+	color: #666;
+	font-style: italic;
+}
+
+header{
+	display: flex;
+	background-image: url(../img/fundo.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+	color: #fff;
+	padding: 1em;
+	align-items: center;
+}
+ 
+header a:link {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+header a:visited {
+	color: #9cf;
+	border-bottom-color: #9cf;
+}
+
+header a:hover {
+	color: #ddd;
+	border-bottom-color: #ddd;
+}
+
+header a:active {
+	color: #69f;
+	border-bottom-color: #69f;
+}
+
+header .title{
+	flex-grow: 1;
+	text-align: center;
+	background-color: rgba(0,0,0, .6);
+	padding: 2em;
+}
+header .perfil{
+	width: 300px;
+}
+
+main{
+	display: flex;
+}
+
+main.simples{
+	display: block;
+}
+
+main>#conteudo{
+	flex-grow: 1;
+	border: #000 solid .2em;
+	padding: 1em;
+}
+
+main>aside{
+	width: 30%;
+	padding: 1em;
+}
+
+.perfil img{
+	border-radius: 10%;
+}
+
+.fotos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.fotos img {
+	width: 32%;
+	height: 300px;
+	padding-bottom: 18%; /* 32:18, i.e. 16:9 */
+	margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+form>fieldset{
+	border: .3em solid #000;
+	padding: 1em;
+	border-radius: 10%;
+}
+
+form .formcampos div{
+	display: flex;
+	margin: 1em;
+}
+
+form .formcampos div label{
+	width: 30%;
+	text-align: right;
+	padding: .5em;
+}
+
+form .formcampos div input,
+form .formcampos div textarea{
+	flex-grow: 1;
+	
+}
+
+
+.pure-button{display:inline-block;zoom:1;line-height:normal;white-space:nowrap;vertical-align:middle;text-align:center;cursor:pointer;-webkit-user-drag:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-box-sizing:border-box;box-sizing:border-box}.pure-button::-moz-focus-inner{padding:0;border:0}.pure-button-group{letter-spacing:-.31em;text-rendering:optimizespeed}.opera-only :-o-prefocus,.pure-button-group{word-spacing:-.43em}.pure-button-group .pure-button{letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-button{font-family:inherit;font-size:100%;padding:.5em 1em;color:#444;color:rgba(0,0,0,.8);border:1px solid #999;border:none transparent;background-color:#e6e6e6;text-decoration:none;border-radius:2px}.pure-button-hover,.pure-button:focus,.pure-button:hover{background-image:-webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))}.pure-button:focus{outline:0}.pure-button-active,.pure-button:active{-webkit-box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;border-color:#000}.pure-button-disabled,.pure-button-disabled:active,.pure-button-disabled:focus,.pure-button-disabled:hover,.pure-button[disabled]{border:none;background-image:none;opacity:.4;cursor:not-allowed;-webkit-box-shadow:none;box-shadow:none;pointer-events:none}.pure-button-hidden{display:none}.pure-button-primary,.pure-button-selected,a.pure-button-primary,a.pure-button-selected{background-color:#0078e7;color:#fff}.pure-button-group .pure-button{margin:0;border-radius:0;border-right:1px solid #111;border-right:1px solid rgba(0,0,0,.2)}.pure-button-group .pure-button:first-child{border-top-left-radius:2px;border-bottom-left-radius:2px}.pure-button-group .pure-button:last-child{border-top-right-radius:2px;border-bottom-right-radius:2px;border-right:none}
+
+
+input[type="submit"],
+input[type="reset"]{
+	padding: .6em;
+	margin: .5em;
+}
+
+input[type="submit"]{
+	background-color: #69f;
+	background-color: linear-gradient(#69f, #cef);
+}
+
+input[type="checkbox"]{
+	width: 2em;
+	height: 2em;
+}
+
+footer{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+@media (max-width: 900px) {
+	
+	h1{
+	font-size: 180%;
+	}
+	h2{
+		font-size: 160%;
+	}
+	h3{
+		font-size: 140%;
+	}
+	h4{
+		font-size: 130%;
+	}
+	h5{
+		font-size: 120%;
+	}
+	h6{
+		font-size: 110%;
+	}
+	h1, h2, h3, h4, h5, h6, p{
+		margin: .2em;
+	}
+	main{
+		display: block;
+	}
+	main>aside{
+		width: 90%;
+	}
+	main>#conteudo, main>aside{
+		padding: .3em;
+	}
+	form .formcampos div{
+		display: block;
+		margin: .5em;
+	}
+	
+	form .formcampos div label{
+		display: block;
+		padding: .2em;
+	}
+
+	form .formcampos div input,
+	form .formcampos div textarea{
+		width: 100%;
+	}
+
+	form .formcampos div input{
+		height: 2em;
+	}
+}
